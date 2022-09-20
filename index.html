@@ -9,33 +9,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container-menu">
-        <div class="logo">
-            <img src="images/logo.png" alt="logo-course-online">
-        </div>    
-            <nav class="navbar">
-                <a href="#">Home</a>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contato</a>
-            </nav>
-            <button class="button-menu">Entrar</button>
+    <header class="container-header">
+        <img src="images/logo.svg" alt="logo-course-online">
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Serviços</li></a>
+            <a href="#"><li>Sobre Nós</li></a>
+            <a href="#"><li>Contato</li></a>
+            <a href="#" class="btn btn-login"><li>Login</li></a>
+        </ul>
     </header>
 
-    <main class="main" id="top">
+    <main class="main" id="home">
+        <img class="bg-icons" src="/images/bg-icons.svg" alt="bg-icons">   
+
         <section class="container-home">
-            <h1 class="home-title">The Smart <br>
-                Choice For Future</h1>
+            <div class="texts-home">
+                <h1>A escolha<span > Inteligente</span><br>
+                    para o seu <span >Futuro</span></h1>
                 <p class="home-subtitle">
                     Elearn is a global training provider based across the UK that<br>
                     specialises in accredited and bespoke training courses. We crush<br>
                     the...
                 </p>
-                <button class="home-seemore">VEJA MAIS</button>
-
-                <img src="" alt="">
-
+                <button class="btn btn-seemore">Veja Mais</button>
+            </div>
+                <img src="/images/course-top.svg" alt="curso-online"> 
+                <img class="ellipse" src="/images/bg-ellipse.svg" alt="bg-ellipse">           
         </section>
+
     </main>
     
     <script src="script.js"></script>
